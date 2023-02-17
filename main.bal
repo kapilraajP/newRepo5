@@ -1,5 +1,10 @@
 import ballerina/io;
 
-public function main() {
-    io:println("Hello, World!");
+configurable string id = ?;
+configurable int count = ?;
+
+public function main() returns error? {
+    io:println(id);
+    io:println(count);
+    io:println("Successful!");
 }
