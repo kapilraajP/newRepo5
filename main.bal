@@ -1,10 +1,10 @@
 import ballerina/io;
 
 configurable string id = ?;
-configurable int count = ?;
+configurable string secret = ?;
 
 public function main() returns error? {
     io:println(id);
-    io:println(count);
+    io:println(secret);
     io:println("Successful!");
 }
