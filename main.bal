@@ -2,8 +2,8 @@ import ballerina/io;
 
 configurable string id = ?;
 configurable float secret = ?;
-configurable string arrayvalue1 = ?;
-configurable float arrayvalue2 = ?;
+configurable string[] arrayvalue1 = ?;
+configurable float[] arrayvalue2 = ?;
 
 public function main() returns error? {
     io:println(id);
