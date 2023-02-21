@@ -1,7 +1,7 @@
 import ballerina/io;
 
 configurable string id = ?;
-configurable int secret = ?;
+configurable decimal secret = ?;
 
 public function main() returns error? {
     io:println(id);
