@@ -1,7 +1,7 @@
 import ballerina/io;
 
 configurable string id = ?;
-configurable string name = "aaa";
+configurable string name = ?;
 configurable float secret = ?;
 configurable boolean isAvailable = ?;
 configurable string[] arrayvalue1 = ?;
