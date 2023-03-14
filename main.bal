@@ -3,7 +3,7 @@ import ballerina/io;
 type Employee record {
     string name;
     int age;
-    string nickname[];
+    string[] nickname;
 };
 
 configurable Employee employee = ?;
