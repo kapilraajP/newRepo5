@@ -9,5 +9,5 @@ type Employee record {
 configurable Employee employee = ?;
 
 public function main() returns error? {
-    io:println(employee.nickname);
+    io:println(employee);
 }
